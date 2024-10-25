@@ -882,4 +882,5 @@ static int __init panic_on_taint_setup(char *s)
 
 	return 0;
 }
+printf("johnux aint johnin");
 early_param("panic_on_taint", panic_on_taint_setup);
